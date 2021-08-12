@@ -4,15 +4,9 @@ import { normalizeURL, decode } from 'ufo'
 import { interopDefault } from './utils'
 import scrollBehavior from './router.scrollBehavior.js'
 
-<<<<<<< Updated upstream
-const _1d18ffee = () => interopDefault(import('..\\pages\\account.vue' /* webpackChunkName: "pages/account" */))
-const _0e3e8671 = () => interopDefault(import('..\\pages\\signin.vue' /* webpackChunkName: "pages/signin" */))
-const _03751a53 = () => interopDefault(import('..\\pages\\index.vue' /* webpackChunkName: "pages/index" */))
-=======
-const _cce4381a = () => interopDefault(import('..\\pages\\account.vue' /* webpackChunkName: "pages/account" */))
-const _334a8dcc = () => interopDefault(import('..\\pages\\signin.vue' /* webpackChunkName: "pages/signin" */))
-const _1d6d3b98 = () => interopDefault(import('..\\pages\\index.vue' /* webpackChunkName: "pages/index" */))
->>>>>>> Stashed changes
+const _7e7bf6b6 = () => interopDefault(import('..\\pages\\account.vue' /* webpackChunkName: "pages/account" */))
+const _7cbd96a9 = () => interopDefault(import('..\\pages\\signin.vue' /* webpackChunkName: "pages/signin" */))
+const _6591b9ca = () => interopDefault(import('..\\pages\\index.vue' /* webpackChunkName: "pages/index" */))
 
 const emptyFn = () => {}
 
@@ -27,27 +21,15 @@ export const routerOptions = {
 
   routes: [{
     path: "/account",
-<<<<<<< Updated upstream
-    component: _1d18ffee,
+    component: _7e7bf6b6,
     name: "account"
   }, {
     path: "/signin",
-    component: _0e3e8671,
+    component: _7cbd96a9,
     name: "signin"
   }, {
     path: "/",
-    component: _03751a53,
-=======
-    component: _cce4381a,
-    name: "account"
-  }, {
-    path: "/signin",
-    component: _334a8dcc,
-    name: "signin"
-  }, {
-    path: "/",
-    component: _1d6d3b98,
->>>>>>> Stashed changes
+    component: _6591b9ca,
     name: "index"
   }],
 

@@ -2,37 +2,22 @@
   {
     "name": "account",
     "path": "/account",
-<<<<<<< Updated upstream
-    "component": "C:\\\\Users\\\\atheer.a\\\\Documents\\\\GitHub\\\\js-nuxt-pe-files\\\\PEFiles\\\\pages\\\\account.vue",
-    "chunkName": "pages/account"
-=======
-    "component": "C:\\\\Users\\\\atheer.a\\\\Documents\\\\GitHub\\\\PEFiles\\\\pages\\\\account.vue",
+    "component": "C:\\\\Users\\\\atheer.a\\\\Documents\\\\GitHub\\\\js-nuxt-pe-files\\\\pages\\\\account.vue",
     "chunkName": "pages/account",
-    "_name": "_cce4381a"
->>>>>>> Stashed changes
+    "_name": "_7e7bf6b6"
   },
   {
     "name": "signin",
     "path": "/signin",
-<<<<<<< Updated upstream
-    "component": "C:\\\\Users\\\\atheer.a\\\\Documents\\\\GitHub\\\\js-nuxt-pe-files\\\\PEFiles\\\\pages\\\\signin.vue",
-    "chunkName": "pages/signin"
-=======
-    "component": "C:\\\\Users\\\\atheer.a\\\\Documents\\\\GitHub\\\\PEFiles\\\\pages\\\\signin.vue",
+    "component": "C:\\\\Users\\\\atheer.a\\\\Documents\\\\GitHub\\\\js-nuxt-pe-files\\\\pages\\\\signin.vue",
     "chunkName": "pages/signin",
-    "_name": "_334a8dcc"
->>>>>>> Stashed changes
+    "_name": "_7cbd96a9"
   },
   {
     "name": "index",
     "path": "/",
-<<<<<<< Updated upstream
-    "component": "C:\\\\Users\\\\atheer.a\\\\Documents\\\\GitHub\\\\js-nuxt-pe-files\\\\PEFiles\\\\pages\\\\index.vue",
-    "chunkName": "pages/index"
-=======
-    "component": "C:\\\\Users\\\\atheer.a\\\\Documents\\\\GitHub\\\\PEFiles\\\\pages\\\\index.vue",
+    "component": "C:\\\\Users\\\\atheer.a\\\\Documents\\\\GitHub\\\\js-nuxt-pe-files\\\\pages\\\\index.vue",
     "chunkName": "pages/index",
-    "_name": "_1d6d3b98"
->>>>>>> Stashed changes
+    "_name": "_6591b9ca"
   }
 ]
