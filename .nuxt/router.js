@@ -4,9 +4,15 @@ import { normalizeURL, decode } from 'ufo'
 import { interopDefault } from './utils'
 import scrollBehavior from './router.scrollBehavior.js'
 
+<<<<<<< Updated upstream
 const _1d18ffee = () => interopDefault(import('..\\pages\\account.vue' /* webpackChunkName: "pages/account" */))
 const _0e3e8671 = () => interopDefault(import('..\\pages\\signin.vue' /* webpackChunkName: "pages/signin" */))
 const _03751a53 = () => interopDefault(import('..\\pages\\index.vue' /* webpackChunkName: "pages/index" */))
+=======
+const _cce4381a = () => interopDefault(import('..\\pages\\account.vue' /* webpackChunkName: "pages/account" */))
+const _334a8dcc = () => interopDefault(import('..\\pages\\signin.vue' /* webpackChunkName: "pages/signin" */))
+const _1d6d3b98 = () => interopDefault(import('..\\pages\\index.vue' /* webpackChunkName: "pages/index" */))
+>>>>>>> Stashed changes
 
 const emptyFn = () => {}
 
@@ -21,6 +27,7 @@ export const routerOptions = {
 
   routes: [{
     path: "/account",
+<<<<<<< Updated upstream
     component: _1d18ffee,
     name: "account"
   }, {
@@ -30,6 +37,17 @@ export const routerOptions = {
   }, {
     path: "/",
     component: _03751a53,
+=======
+    component: _cce4381a,
+    name: "account"
+  }, {
+    path: "/signin",
+    component: _334a8dcc,
+    name: "signin"
+  }, {
+    path: "/",
+    component: _1d6d3b98,
+>>>>>>> Stashed changes
     name: "index"
   }],
 
