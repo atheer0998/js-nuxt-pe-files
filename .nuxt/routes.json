@@ -1,0 +1,20 @@
+[
+  {
+    "name": "account",
+    "path": "/account",
+    "component": "C:\\\\Users\\\\atheer.a\\\\Documents\\\\GitHub\\\\js-nuxt-pe-files\\\\PEFiles\\\\pages\\\\account.vue",
+    "chunkName": "pages/account"
+  },
+  {
+    "name": "signin",
+    "path": "/signin",
+    "component": "C:\\\\Users\\\\atheer.a\\\\Documents\\\\GitHub\\\\js-nuxt-pe-files\\\\PEFiles\\\\pages\\\\signin.vue",
+    "chunkName": "pages/signin"
+  },
+  {
+    "name": "index",
+    "path": "/",
+    "component": "C:\\\\Users\\\\atheer.a\\\\Documents\\\\GitHub\\\\js-nuxt-pe-files\\\\PEFiles\\\\pages\\\\index.vue",
+    "chunkName": "pages/index"
+  }
+]
