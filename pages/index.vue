@@ -82,7 +82,6 @@
             <tr v-for="(fileName, index) in filees" :key="index">
               <td>{{ fileName.fileName }}</td>
               <td>{{ fileName.publisher }}</td>
-              <td>{{ fileName.selected }}</td>
               <td>
                 <a href="#" @click="removeFiles(fileName, index)"
                   ><svg
@@ -123,6 +122,11 @@ export default {
       user: '',
     }
   },
+   computed: {
+    filees() {
+      return this.$store.state.filees
+    },
+  },
 
   mounted() {
     firebase.auth().onAuthStateChanged((user) => {
@@ -143,8 +147,7 @@ export default {
           this.$router.push('/')
         })
     },
-  },
-}
+  }}
 </script>
 
 <style scoped>
@@ -161,3 +164,4 @@ export default {
   color: #35495e;
 }
 </style>
+  

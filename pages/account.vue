@@ -151,7 +151,7 @@
                     >
                       <b-form-radio-group
                         v-model="selected"
-                        id="choice"
+                        id="selecte"
                         class="pt-2"
                         :options="['Private', 'Public']"
                         :aria-describedby="ariaDescribedby"
